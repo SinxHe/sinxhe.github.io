@@ -18,3 +18,15 @@ export function GetSheet(sheetName) {
         return sheet;
     }));
 }
+export function test(sheetName) {
+    return __awaiter(this, void 0, void 0, function* () {
+        return yield Excel.run((context) => __awaiter(this, void 0, void 0, function* () {
+            let sheets = context.workbook.worksheets;
+            let sheet = sheets.getActiveWorksheet();
+            let r = sheet.getUsedRange();
+            r.load("address");
+            yield context.sync();
+            console.log(r.address);
+        }));
+    });
+}

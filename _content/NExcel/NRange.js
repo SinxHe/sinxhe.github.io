@@ -37,3 +37,18 @@ export function Delete(range, shiftString) {
 export function GetFormat(range) {
     return range.format;
 }
+export function GetColumnIndex(range) {
+    return range.columnIndex;
+}
+export function GetRowIndex(range) {
+    return range.rowIndex;
+}
+export function GetRow(range, row) {
+    return range.getRow(row);
+}
+export function GetColumn(range, col) {
+    return range.getColumn(col);
+}
+export function Insert(range, shiftString) {
+    return range.insert(shiftString);
+}
