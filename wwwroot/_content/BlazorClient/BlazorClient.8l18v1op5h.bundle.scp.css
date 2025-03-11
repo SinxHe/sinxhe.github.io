@@ -1,0 +1,44 @@
+/* _content/BlazorClient/Components/Grids.razor.rz.scp.css */
+.flex-container[b-2f98d02bq1] {
+   
+}
+/* _content/BlazorClient/Components/Image.razor.rz.scp.css */
+[b-w2s4ocgps1] img {
+    display: block;
+    box-shadow: 0 0 4px 0 darkslateblue;
+}
+
+[b-w2s4ocgps1] .image-item {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+[b-w2s4ocgps1] .image-item-clickable:hover {
+    box-shadow: 0 0 12px 0 darkslateblue;
+    cursor: pointer;
+}
+
+[b-w2s4ocgps1] .image-item-selected {
+    box-shadow: 0 0 12px 5px #bb505d !important;
+}
+
+[b-w2s4ocgps1] .mud-overlay-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* _content/BlazorClient/Components/ImageGrids.razor.rz.scp.css */
+[b-vhddj5zjwy] img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+[b-vhddj5zjwy] .add-icon {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+/* _content/BlazorClient/Components/Loading.razor.rz.scp.css */
